@@ -6,7 +6,6 @@ function calcularPontuacaoTotal(historicoDePontos) {
     return novaSoma;
     };
     
-
     const pontuacaoFinal = historicoDePontos.reduce(somarRodada, 0);
     return pontuacaoFinal;
 };
@@ -19,4 +18,16 @@ function filtrarMissoesConcluidas(listaDeMissoes) {
 
     const apenasConcluidas = listaDeMissoes.filter(verificarStatusDaMissao);
     return apenasConcluidas
+};
+
+function atualizarInventario(inventarioAtual, acao, ) {
+    let novoInventario;
+
+    if (acao === "pegar"){
+        const inventarioComItemNovo = [inventarioAtual, nomeDoItem];
+        novoInventario = inventarioComItemNovo;
+    } else if (acao === "descartar")
 }
+
+const pontosDoJogador = [100, 50, 200, 10]
+console.log(pontosDoJogador);
