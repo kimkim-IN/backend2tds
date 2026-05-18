@@ -2,8 +2,11 @@
 
 const nomedaEmpresa = "Ferramentas Gerais";
 const nomeDaFuncionaria = "Nicolle";
-const IdadeDaFuncionaria = 23;
-let horasTrabalhadas = 10;
-let salario = 2.221;
+const cargo = "Vendedora"
+let idade = 22;
+let ativo = true;
 
-console.log(`A funcinaria ${nomeDaFuncionaria} tem ${IdadeDaFuncionaria} anos e trabalha na ${nomedaEmpresa} por ${horasTrabalhadas} horas e recebe ${salario} por mês.`)
+let horasTrabalhadas = 9;
+let salarioMensal = 2500.00;
+
+console.log(`A funcionária ${nomeDaFuncionaria} trabalha no cargo de ${cargo} na ${nomedaEmpresa} por ${horasTrabalhadas} horas e recebe ${salarioMensal} por mês.`)
